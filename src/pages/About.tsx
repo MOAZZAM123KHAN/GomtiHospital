@@ -8,9 +8,12 @@ import hospitalImg from "@/assets/hospital-exterior.jpg";
 const About = () => {
   const qualifications = [
     "MBBS - Bachelor of Medicine and Bachelor of Surgery",
-    "MD (Medicine) - Doctor of Medicine",
-    "DM (Gastroenterology) - Doctorate in Gastroenterology",
-    "Fellowship in Advanced Endoscopy",
+    "D.N.B. (M.D.), MAH , New Delhi",
+    "Physician",
+    "Former Medical Officer, Ballia",
+    "Former House Officer, Railway Hospital, Varanasi",
+    "Reg. No.: RMEE 2235724"
+    
   ];
 
   const achievements = [
@@ -39,16 +42,21 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h1 className="heading-xl">
-                Meet Dr. Mithilesh Mourya
+                Meet Dr. Mithilesh Maurya
               </h1>
               <p className="text-xl font-semibold text-primary">
-                Consultant Gastroenterologist & Hepatologist
+                General Physician & Specialist in Internal Medicine
               </p>
               <p className="text-para">
-                Dr. Mithilesh Mourya is a highly skilled and compassionate gastroenterologist 
+                {/* Dr. Mithilesh Maurya is a highly skilled and compassionate gastroenterologist 
                 dedicated to providing exceptional care for patients with digestive and liver 
                 disorders. With extensive training and years of clinical experience, he brings 
-                expertise in managing complex gastrointestinal conditions.
+                expertise in managing complex gastrointestinal conditions. */}
+                
+                Dr. Mithilesh Maurya is a highly skilled and compassionate General Physician (or Specialist in Internal Medicine) dedicated to providing comprehensive and exceptional care. With extensive training and years of clinical experience, he offers expertise in managing a broad spectrum of conditions, including Thyroid, Typhoid, Constipation, Acidity, Jaundice, Malaria, Meningitis, and Colitis.
+
+               He has a special focus on chronic and complex diseases, including Paralysis, Diabetes, Heart and Chest Blood Pressure conditions, as well as Ulcers, Asthma, and Dengue cases.
+
               </p>
               <Link to="/contact">
                 <Button className="btn-accent">
@@ -78,7 +86,7 @@ const About = () => {
             </div>
             <h2 className="heading-lg mb-4">Qualifications & Training</h2>
             <p className="text-para max-w-2xl mx-auto">
-              Extensive medical education and specialized training in gastroenterology
+              Extensive medical education and specialized training in General Physician & Specialist in Internal Medicine
             </p>
           </div>
 
@@ -209,7 +217,7 @@ const About = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src={hospitalImg}
-                alt="Gomti Hospital"
+                alt="Gomati Hospital"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -221,10 +229,10 @@ const About = () => {
       <section className="section-padding bg-gradient-to-r from-primary to-secondary text-primary-foreground">
         <div className="container-custom text-center">
           <h2 className="heading-lg mb-4">
-            Experience Expert Gastroenterology Care
+            General Physician & Specialist in Internal Medicine
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Schedule your consultation with Dr. Mithilesh Mourya today
+            Schedule your consultation with Dr. Mithilesh Maurya today
           </p>
           <Link to="/contact">
             <Button className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-10 py-6">

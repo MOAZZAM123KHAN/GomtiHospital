@@ -148,7 +148,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <a href="tel:09793502527" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Phone className="w-4 h-4" />
-              <span>097935 02527</span>
+              <span>97935 02527</span>
             </a>
             <a href="mailto:gomatihospitaljnp@gmail.com" className="hidden md:flex items-center gap-2 hover:opacity-80 transition-opacity">
               <Mail className="w-4 h-4" />
@@ -156,7 +156,7 @@ const Header = () => {
             </a>
           </div>
           <div className="text-xs md:text-sm">
-            Gomti Hospital, Jaunpur
+            Gomati Hospital, Jaunpur
           </div>
         </div>
       </div>
@@ -170,14 +170,14 @@ const Header = () => {
             <div className="w-12 h-12"> {/* Use a container for sizing if needed */}
               <img
                 src={logo}
-                alt="Gomti Hospital Logo"
+                alt="Gomati Hospital Logo"
                 className="w-full h-full object-contain rounded-full" // Use appropriate classes for styling the image
               />
             </div>
             
             <div className="hidden md:block">
-              <h1 className="font-bold text-lg leading-tight text-heading">Gomti Hospital</h1>
-              <p className="text-xs text-muted-foreground">Dr. Mithilesh Mourya</p>
+              <h1 className="font-bold text-lg leading-tight text-heading">Gomati Hospital</h1>
+              <p className="text-xs text-muted-foreground">Dr. Mithilesh Maurya</p>
             </div>
           </Link>
 

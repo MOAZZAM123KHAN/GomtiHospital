@@ -6,15 +6,15 @@ const Footer = () => {
 
   const quickLinks = [
     { path: "/", label: "Home" },
-    { path: "/about", label: "About Dr. Mourya" },
+    { path: "/about", label: "About Dr. Maurya" },
     { path: "/services", label: "Services" },
     { path: "/blog", label: "Health Blog" },
   ];
 
   const services = [
-    { path: "/services", label: "Gastroenterology" },
-    { path: "/services", label: "Hepatology" },
-    { path: "/services", label: "Endoscopy" },
+    { path: "/services", label: "Chronic Disease Care" },
+    { path: "/services", label: "Infectious Diseases" },
+    { path: "/services", label: "Digestive & Liver Care" },
     { path: "/contact", label: "Book Appointment" },
   ];
 
@@ -29,12 +29,17 @@ const Footer = () => {
                 <span className="text-primary font-bold text-xl">GM</span>
               </div>
               <div>
-                <h3 className="font-bold text-lg">Gomti Hospital</h3>
+                <h3 className="font-bold text-lg">Gomati Hospital</h3>
                 <p className="text-sm opacity-90">Jaunpur</p>
               </div>
             </div>
             <p className="text-sm opacity-90 leading-relaxed mb-4">
-              Expert Gastroenterology and Liver Care by Dr. Mithilesh Mourya, serving patients in Jaunpur with compassion and excellence.
+              {/* Expert Gastroenterology and Liver Care by Dr. Mithilesh Maurya, serving patients in Jaunpur with compassion and excellence. */}
+        
+
+           Expert General and Internal Medical Care by Dr. Mithilesh Maurya, serving patients
+           with compassion and excellence.
+          
             </p>
             <div className="flex gap-3">
               <a
@@ -135,7 +140,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 text-center">
           <p className="text-sm opacity-90">
-            © {currentYear} Gomti Hospital, Jaunpur. All rights reserved.
+            © {currentYear} Gomati Hospital, Jaunpur. All rights reserved.
           </p>
           <p className="text-xs opacity-75 mt-2">
             Designed for patient care excellence

@@ -17,32 +17,61 @@ import gastroIcon from "@/assets/gastro-icon.jpg";
 import liverIcon from "@/assets/liver-icon.jpg";
 
 const Home = () => {
+  // const specialties = [
+  //   {
+  //     icon: <Stethoscope className="w-8 h-8" />,
+  //     title: "Gastroenterology",
+  //     description: "Expert care for digestive system disorders",
+  //     conditions: ["एसिडिटी और गैस", "कब्ज़ और दस्त", "पेट दर्द"],
+  //   },
+  //   {
+  //     icon: <Heart className="w-8 h-8" />,
+  //     title: "Hepatology",
+  //     description: "Specialized liver disease treatment",
+  //     conditions: ["फैटी लीवर", "पीलिया", "हेपेटाइटिस"],
+  //   },
+  //   {
+  //     icon: <Activity className="w-8 h-8" />,
+  //     title: "Endoscopy",
+  //     description: "Advanced diagnostic procedures",
+  //     conditions: ["कोलोनोस्कोपी", "गैस्ट्रोस्कोपी", "ERCP"],
+  //   },
+  //   {
+  //     icon: <Shield className="w-8 h-8" />,
+  //     title: "Preventive Care",
+  //     description: "Comprehensive health screening",
+  //     conditions: ["स्वास्थ्य जांच", "रोकथाम परामर्श", "आहार मार्गदर्शन"],
+  //   },
+  // ];
+
   const specialties = [
     {
-      icon: <Stethoscope className="w-8 h-8" />,
-      title: "Gastroenterology",
-      description: "Expert care for digestive system disorders",
-      conditions: ["एसिडिटी और गैस", "कब्ज़ और दस्त", "पेट दर्द"],
+        icon: <Stethoscope className="w-8 h-8" />,
+        title: "General & Infectious Diseases",
+        description: "Diagnosis and treatment of common and severe infections.",
+        conditions: ["Typhoid", "Malaria", "Dengue", "Meningitis", "High Fever"],
     },
     {
-      icon: <Heart className="w-8 h-8" />,
-      title: "Hepatology",
-      description: "Specialized liver disease treatment",
-      conditions: ["फैटी लीवर", "पीलिया", "हेपेटाइटिस"],
+        icon: <Heart className="w-8 h-8" />,
+        title: "Cardio-Metabolic Care",
+        description: "Specialized management for heart, blood, and metabolic disorders.",
+        conditions: ["Diabetes", "Heart & Chest Blood Pressure (BP)", "Thyroid Disorders", "Ulcer"],
     },
     {
-      icon: <Activity className="w-8 h-8" />,
-      title: "Endoscopy",
-      description: "Advanced diagnostic procedures",
-      conditions: ["कोलोनोस्कोपी", "गैस्ट्रोस्कोपी", "ERCP"],
+        icon: <Activity className="w-8 h-8" />,
+        title: "Gastrointestinal & Liver",
+        description: "Expert care for digestive and liver system issues.",
+        conditions: ["Constipation", "Acidity", "Colitis", "Jaundice", "पेट दर्द"],
     },
     {
-      icon: <Shield className="w-8 h-8" />,
-      title: "Preventive Care",
-      description: "Comprehensive health screening",
-      conditions: ["स्वास्थ्य जांच", "रोकथाम परामर्श", "आहार मार्गदर्शन"],
+        icon: <Shield className="w-8 h-8" />,
+        title: "Respiratory & Chronic Illness",
+        description: "Comprehensive management of lung and complex long-term conditions.",
+        conditions: ["Asthma", "Paralysis (पक्षाघात)", "Chronic Fatigue", "Routine Health Check-up (स्वास्थ्य जांच)"],
     },
-  ];
+];
+
+
 
   const features = [
     { icon: <CheckCircle />, text: "15+ Years Experience" },
@@ -59,12 +88,12 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
             <div className="space-y-6">
-              <div className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold">
+              {/* <div className="inline-block px-4 py-2 bg-accent/10 text-accent rounded-full text-sm font-semibold">
                 Consultant Gastroenterologist
-              </div>
+              </div> */}
               
               <h1 className="heading-xl">
-                Dr. Mithilesh Mourya
+                Dr. Mithilesh Maurya
               </h1>
               
               <p className="text-2xl md:text-3xl font-bold text-primary">
@@ -73,8 +102,11 @@ const Home = () => {
               </p>
               
               <p className="text-para">
-                Expert care for all digestive and liver disorders at Gomti Hospital, Jaunpur. 
-                Get personalized treatment from an experienced gastroenterologist.
+                {/* Expert care for all digestive and liver disorders at Gomti Hospital, Jaunpur. 
+                Get personalized treatment from an experienced gastroenterologist. */}
+
+                Expert General and Internal Medical Care at Gomti Hospital, Jaunpur. Get personalized treatment 
+                from an experienced General Physician.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -108,15 +140,15 @@ const Home = () => {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img
                   src={drMouryaImg}
-                  alt="Dr. Mithilesh Mourya"
+                  alt="Dr. Mithilesh Maurya"
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-6">
                   <p className="text-white font-semibold text-lg">
-                    Gomti Hospital, Jaunpur
+                    Gomati Hospital, Jaunpur
                   </p>
                   <p className="text-white/90 text-sm">
-                    Advanced Gastroenterology & Liver Care
+                    Dr. Mithilesh Maurya - General Physician & Specialist in Internal Medicine
                   </p>
                 </div>
               </div>
@@ -131,7 +163,8 @@ const Home = () => {
           <div className="text-center mb-12">
             <h2 className="heading-lg mb-4">Our Specialties</h2>
             <p className="text-para max-w-2xl mx-auto">
-              Comprehensive care for all gastroenterology and liver conditions
+              {/* Comprehensive care for all gastroenterology and liver conditions */}
+               General Physician & Specialist in Internal Medicine
             </p>
           </div>
 
@@ -180,13 +213,20 @@ const Home = () => {
 
             <div className="space-y-6">
               <h2 className="heading-lg">
-                Expert Gastroenterology Care in Jaunpur
+                 Expert General and Internal Medical Care by Dr. Mithilesh Maurya in Jaunpur
               </h2>
               
               <p className="text-para">
-                Dr. Mithilesh Mourya is a highly experienced Consultant Gastroenterologist 
+                {/* Dr. Mithilesh Maurya is a highly experienced Consultant Gastroenterologist 
                 dedicated to providing world-class digestive and liver care to patients in 
-                Jaunpur and surrounding areas.
+                Jaunpur and surrounding areas. */}
+
+                Dr. Mithilesh Maurya is a highly skilled and compassionate General Physician (or Specialist in Internal Medicine) dedicated to providing comprehensive and exceptional care. With extensive training and years of clinical experience, he offers expertise in managing a broad spectrum of conditions, including Thyroid, Typhoid, Constipation, Acidity, Jaundice, Malaria, Meningitis, and Colitis.
+
+               He has a special focus on chronic and complex diseases, including Paralysis, Diabetes, Heart and Chest Blood Pressure conditions, as well as Ulcers, Asthma, and Dengue cases.
+
+
+
               </p>
 
               <div className="space-y-4">
@@ -195,7 +235,8 @@ const Home = () => {
                   <div>
                     <h4 className="font-semibold mb-1">Comprehensive Diagnosis</h4>
                     <p className="text-sm text-muted-foreground">
-                      Advanced endoscopy and diagnostic procedures
+                      Expert General and Internal Medical Care
+                      
                     </p>
                   </div>
                 </div>
@@ -223,7 +264,7 @@ const Home = () => {
 
               <Link to="/about">
                 <Button className="btn-primary">
-                  Learn More About Dr. Mourya
+                  Learn More About Dr. Maurya
                 </Button>
               </Link>
             </div>
@@ -238,7 +279,7 @@ const Home = () => {
             Ready to Take Control of Your Digestive Health?
           </h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-            Book your consultation with Dr. Mithilesh Mourya today
+            Book your consultation with Dr. Mithilesh Maurya today
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/contact">

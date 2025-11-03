@@ -57,7 +57,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-xl max-w-2xl mx-auto">
-            Book your appointment with Dr. Mithilesh Mourya at Gomti Hospital, Jaunpur
+            Book your appointment with Dr. Mithilesh Maurya at Gomati Hospital, Jaunpur
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ const Contact = () => {
               <div>
                 <h2 className="heading-md mb-6">Get In Touch</h2>
                 <p className="text-para mb-8">
-                  We're here to help you with all your gastroenterology and liver care needs. 
+                 "Our goal is to fulfill all your General Health and Internal Medicine needs. 
                   Contact us or book an appointment today.
                 </p>
               </div>
@@ -140,8 +140,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-bold mb-2">Consultation Hours</h3>
                       <p className="text-muted-foreground">
-                        Monday - Saturday: 10:00 AM - 6:00 PM<br />
-                        Sunday: By Appointment Only
+                        Monday - Saturday: 11:00 AM - 2:30 PM<br />
+                        Sunday: OPD services are closed on Sunday
                       </p>
                     </div>
                   </div>
@@ -279,7 +279,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Gomti Hospital Location"
+              title="Gomati Hospital Location"
             ></iframe>
           </div>
         </div>
@@ -289,3 +289,5 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
