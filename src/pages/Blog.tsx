@@ -263,10 +263,10 @@ const Blog = () => {
                     </p>
 
                     <Link to={`/blogs/${blog._id}`}>
-                      <Button variant="ghost" className="w-full group">
+                      {/* <Button variant="ghost" className="w-full group">
                         Read More
                         <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                      </Button>
+                      </Button> */}
                     </Link>
                   </CardContent>
                 </Card>
